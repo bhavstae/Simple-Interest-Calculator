@@ -14,11 +14,11 @@ function showslider(x) {
 function compute()
 {
     var p = parseFloat(document.getElementById("principal").value);
-   var r = parseFloat(document.getElementById("rate").value);
+   var r = parseFloat(document.getElementById("ratespan").value);
     var n= parseFloat(document.getElementById("Years").value);
      var Interest = p*r*n/100;
      var FY = new Date().getFullYear() + Years;
-    document.getElementById("result").innerHTML="<br />If you deposit <mark>"+principal+"</mark>,<br /> at an interest rate of <mark>"+rate+"%</mark>.
+    document.getElementById("result").innerHTML="<br />If you deposit <mark>"+principal+"</mark>,<br /> at an interest rate of <mark>"+ratespan+"%</mark>.
 	<br />You will receive an amount of <mark>"+Interest+"</mark><br />in the year <mark>"+FY+"</mark>";
 
 }
