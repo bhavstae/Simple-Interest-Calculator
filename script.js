@@ -12,12 +12,11 @@ function showslider() {
 }
 function compute()
 {
-    var principal = parseFloat(document.getElementById("principal").value;
-   var rate = parseFloat(document.getElementById("ratespan").value);
-    var Years= parseFloat(document.getElementById("Years").value);
-     var Interest = (principal*rate*Years)/100;
-    var currentYear = new Date().getFullYear();
-    var finalYear = currentYear + Years;
+    var principal = parseFloat(document.getElementById("principal").value);
+    var rate = parseFloat(document.getElementById("rate").value);
+    var years = parseInt(document.getElementById("years").value);
+    var interest = principal * years * rate / 100;
+    var finalyear = new Date().getFullYear() + years;
 	
     document.getElementById("result").innerHTML="<br />If you deposit <mark>"+principal+"</mark>,<br /> at an interest rate of <mark>"+rate+"%</mark>.
 	<br />You will receive an amount of <mark>"+Interest+"</mark><br />in the year <mark>"+finalyear+"</mark>";
