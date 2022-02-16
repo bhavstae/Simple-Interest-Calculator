@@ -12,7 +12,8 @@ function compute()
 
 }
         function showslider(x) {
-    document.getElementById("rateSpan").innerHTML = document.getElementById("r").value;
+   
+		 document.getElementById("rateSpan").innerText = x;
 }
 
 function validamount(){
