@@ -1,6 +1,6 @@
 function validamount(){
-	 var p = document.getElementById("prinicipal").value;
-if(p <= 0) {
+	 var principal = document.getElementById("prinicipal").value;
+if(principal <= 0) {
 		alert("Enter a positive number");
 		document.getElementById("principal").focus();
 	
