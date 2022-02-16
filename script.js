@@ -7,7 +7,10 @@ if(p < 1) {
     }
     return true;
 }
-
+function showslider(x) {
+   
+		 document.getElementById("rateSpan").innerText = x;
+}
 function compute()
 {
     var p = parseFloat(document.getElementById("Amount").value);
@@ -19,9 +22,5 @@ function compute()
 	<br />You will receive an amount of <mark>"+Interest+"</mark><br />in the year <mark>"+FY+"</mark>";
 
 }
-        function showslider(x) {
-   
-		 document.getElementById("rateSpan").innerText = x;
-}
-
+        
 
