@@ -8,6 +8,7 @@ h1{
 }
 	
 .box{
+	background-color: white;
     color: black;
     width: 600px;
     padding: 30px;
