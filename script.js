@@ -16,6 +16,6 @@ function compute()
         "You will receive an amount of  <mark>" + Compute Interest + "</mark>,<br/> " +
         "in the year <mark>" + FY + "</mark><br/>";	
 }
-        function SliderValue() {
-    document.getElementById("rateSpan").innerHTML = document.getElementById("rate").value;
+        function showslider() {
+    document.getElementById("rateSpan").innerHTML = document.getElementById("Interest Rate").value;
 }
