@@ -3,10 +3,9 @@ function validamount(){
 if(p <= 0) {
 		alert("Enter a positive number");
 		document.getElementById("principal").focus();
-		return false;
-    }
-    return true;
-}
+	
+    return ;
+}}
 function showslider(x) {
    
 		 document.getElementById("rate").innerText = x;
