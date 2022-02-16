@@ -17,5 +17,5 @@ function compute()
 
 }
         function showslider() {
-    document.getElementById("rateSpan").innerHTML = document.getElementById("Interest Rate").value;
+    document.getElementById("rateSpan").innerHTML = document.getElementById("r").value;
 }
