@@ -1,11 +1,6 @@
 function compute()
 {
     var p = parseInt(document.getElementById("Amount").value);
-    if(p < 1) {
-		alert("Enter a positive number");
-		document.getElementById("p").focus();
-		return;
-	}
    var r = parseFloat(document.getElementById("Interest rate").value);
     var n= parseInt(document.getElementById("No. of Years").value);
      Compute Interest = (p*r*n)/100;
@@ -19,3 +14,11 @@ function compute()
         function showslider() {
     document.getElementById("rateSpan").innerHTML = document.getElementById("r").value;
 }
+
+function validamount(){
+	 var p = document.getElementById("p").value;
+if(p < 1) {
+		alert("Enter a positive number");
+		document.getElementById("p").focus();
+		return;
+	}}
