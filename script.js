@@ -5,7 +5,7 @@ if(principal <= 0) {
 		alert("Enter a positive number");
 		document.getElementById("principal").focus();
 	
-    return ;
+    
 }}
 function showslider() {
     document.getElementById("rateSpan").innerHTML = document.getElementById("rate").value;
