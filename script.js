@@ -1,8 +1,8 @@
 function compute()
 {
-    var p = parseInt(document.getElementById("Amount").value);
+    var p = parseFloat(document.getElementById("Amount").value);
    var r = parseFloat(document.getElementById("Interest rate").value);
-    var n= parseInt(document.getElementById("No. of Years").value);
+    var n= parseFloat(document.getElementById("No. of Years").value);
      Interest = (p*r*n)/100;
      var FY = new Date().getFullYear() + n;
     document.getElementById("ComputeInterest").innerHTML="<br/>If you deposit  <mark>" + p + "</mark>,<br/>" +
