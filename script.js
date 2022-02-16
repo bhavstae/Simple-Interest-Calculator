@@ -13,7 +13,7 @@ function showslider(x) {
 function compute()
 {
     var principal = parseFloat(document.getElementById("principal").value,10);
-   var rate = parseFloat(document.getElementById("rate").value,10);
+   var rate = parseFloat(document.getElementById("ratespan").value,10);
     var Years= parseFloat(document.getElementById("Years").value,10);
      var Interest = (principal*rate*Years)/100;
     var currentYear = new Date().getFullYear();
