@@ -1,3 +1,7 @@
+function showText() {
+	document.getElementById("result").style.display = "block";
+};
+
 function validamount(){
 	 var principal = document.getElementById("prinicipal").value;
 if(principal <= 0) {
@@ -18,8 +22,10 @@ function compute()
      var Interest = (principal*rate*Years)/100;
     var currentYear = new Date().getFullYear();
     var finalYear = currentYear + Years;
-    document.getElementById("result").innerHTML="<br />If you deposit <mark>"+principal+"</mark>,<br /> at an interest rate of <mark>"+rate+"%</mark>.
-	<br />You will receive an amount of <mark>"+Interest+"</mark><br />in the year <mark>"+finalyear+"</mark>";
+	showText();
+	return false;
+    //document.getElementById("result").innerHTML="<br />If you deposit <mark>"+principal+"</mark>,<br /> at an interest rate of <mark>"+rate+"%</mark>.
+	//<br />You will receive an amount of <mark>"+Interest+"</mark><br />in the year <mark>"+finalyear+"</mark>";
 
 }
         
