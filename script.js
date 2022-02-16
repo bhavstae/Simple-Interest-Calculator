@@ -5,7 +5,7 @@ function compute()
     var n= parseFloat(document.getElementById("No. of Years").value);
      var Interest = (p*r*n)/100;
      var FY = new Date().getFullYear() + n;
-    document.getElementById("ComputeInterest").innerHTML="<br/>If you deposit  <mark>" + p + "</mark>,<br/>" +
+    document.getElementById("result").innerHTML="<br/>If you deposit  <mark>" + p + "</mark>,<br/>" +
         "at an interest rate of  <mark>" + r + "</mark>,<br/><br/>" +
         "You will receive an amount of  <mark>" + Interest + "</mark>,<br/> " +
         "in the year <mark>" + FY + "</mark><br/>";
