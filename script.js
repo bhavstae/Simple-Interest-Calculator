@@ -3,11 +3,11 @@ function compute()
     var p = parseInt(document.getElementById("Amount").value);
    var r = parseFloat(document.getElementById("Interest rate").value);
     var n= parseInt(document.getElementById("No. of Years").value);
-     Compute Interest = (p*r*n)/100;
+     Interest = (p*r*n)/100;
      var FY = new Date().getFullYear() + n;
     document.getElementById("ComputeInterest").innerHTML="<br/>If you deposit  <mark>" + p + "</mark>,<br/>" +
         "at an interest rate of  <mark>" + r + "</mark>,<br/><br/>" +
-        "You will receive an amount of  <mark>" + Compute Interest + "</mark>,<br/> " +
+        "You will receive an amount of  <mark>" + Interest + "</mark>,<br/> " +
         "in the year <mark>" + FY + "</mark><br/>";
 
 }
