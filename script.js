@@ -7,14 +7,15 @@ function compute()
 		return;
 	}
    var r = parseFloat(document.getElementById("Interest rate").value);
-    var n= parseInt(document.getElementById("No. of years").value);
+    var n= parseInt(document.getElementById("No. of Years").value);
      Compute Interest = (p*r*n)/100;
      var FY = new Date().getFullYear() + n;
     result= document.getElementById("Compute Interest");
-    result.innerHTML="<br/>If you deposit  <mark>" + p + "</mark>,<br/>" +
+    result.innerHTML=""<br/>If you deposit  <mark>" + p + "</mark>,<br/>" +
         "at an interest rate of  <mark>" + r + "</mark>,<br/><br/>" +
         "You will receive an amount of  <mark>" + result + "</mark>,<br/> " +
-        "in the year <mark>" + FY + "</mark><br/>";	
+        "in the year <mark>" + FY + "</mark><br/>";
+
 }
         function showslider() {
     document.getElementById("rateSpan").innerHTML = document.getElementById("Interest Rate").value;
