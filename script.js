@@ -11,7 +11,7 @@ function compute()
         "in the year <mark>" + FY + "</mark><br/>";
 
 }
-        function showslider() {
+        function showslider(x) {
     document.getElementById("rateSpan").innerHTML = document.getElementById("r").value;
 }
 
