@@ -8,7 +8,6 @@ h1{
 }
 	
 .box{
-background-color: white;
     color: black;
     width: 600px;
     padding: 30px;
@@ -17,6 +16,7 @@ background-color: white;
 	margin-top: 40px;
 }
 .box1{
+	background-color: white;
 	 margin: auto;
 	margin-left: 40px;
 		
@@ -26,8 +26,6 @@ background-color: white;
 .s3{
 	margin-left:40px;}
 
-.result { display:none;
-}
 
 	
 
