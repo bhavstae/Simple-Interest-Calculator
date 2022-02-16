@@ -9,16 +9,16 @@ if(p <= 0) {
 }
 function showslider(x) {
    
-		 document.getElementById("rateSpan").innerText = x;
+		 document.getElementById("rate").innerText = x;
 }
 function compute()
 {
     var principal = parseFloat(document.getElementById("principal").value,10);
-   var ratespan = parseFloat(document.getElementById("ratespan").value,10);
+   var rate = parseFloat(document.getElementById("rate").value,10);
     var Years= parseFloat(document.getElementById("Years").value,10);
-     var Interest = (principal*ratespan*Years)/100;
+     var Interest = (principal*rate*Years)/100;
      var FY = new Date().getFullYear() + Years;
-    document.getElementById("result").innerHTML="<br />If you deposit <mark>"+principal+"</mark>,<br /> at an interest rate of <mark>"+ratespan+"%</mark>.
+    document.getElementById("result").innerHTML="<br />If you deposit <mark>"+principal+"</mark>,<br /> at an interest rate of <mark>"+rate+"%</mark>.
 	<br />You will receive an amount of <mark>"+Interest+"</mark><br />in the year <mark>"+FY+"</mark>";
 
 }
