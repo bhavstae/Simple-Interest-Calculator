@@ -1,3 +1,13 @@
+function validamount(){
+	 var p = document.getElementById("p").value;
+if(p < 1) {
+		alert("Enter a positive number");
+		document.getElementById("p").focus();
+		return false;
+    }
+    return true;
+}
+
 function compute()
 {
     var p = parseFloat(document.getElementById("Amount").value);
@@ -14,10 +24,4 @@ function compute()
 		 document.getElementById("rateSpan").innerText = x;
 }
 
-function validamount(){
-	 var p = document.getElementById("p").value;
-if(p < 1) {
-		alert("Enter a positive number");
-		document.getElementById("p").focus();
-		return;
-	}}
+
