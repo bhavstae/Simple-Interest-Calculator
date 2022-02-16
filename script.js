@@ -1,5 +1,5 @@
 function validamount(){
-	 var p = parseFloat(document.getElementById("Amount").value);
+	 var p = parseFloat(document.getElementById("Amount"));
 if(p < 1) {
 		alert("Enter a positive number");
 		document.getElementById("p").focus();
