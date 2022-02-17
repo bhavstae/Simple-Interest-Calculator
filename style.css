@@ -1,20 +1,30 @@
-body {background-color:navy blue;}
+body{background-color:black;}
+
 h1{
   color:grey;
 	font-family: Verdana;
 	margin-top: 5px;
 	padding:2px;
+  margin:auto;
 	
 }
 	
 .box{
-	background-color: white;
+    margin: auto;
+	margin-left: 40px;
+  padding:15px;
+}
+
+.mainbox{
+    background-color: white;
     color: black;
     width: 600px;
-    padding: 30px;
+    padding: 50px;
     border-radius: 25px;
     margin: auto;
 	margin-top: 40px;
+
+  
 }
 
 		
