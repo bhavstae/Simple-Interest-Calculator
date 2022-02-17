@@ -18,7 +18,7 @@ function validamount(){
 if(principal <= 0) {
 		alert("Enter a positive number");
 		document.getElementById("principal").focus();
-	return;
+		return;
     
 }}
 function showslider() {
