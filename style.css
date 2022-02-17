@@ -5,13 +5,13 @@ h1{
 	font-family: Verdana;
 	margin-top: 5px;
 	padding:2px;
-  margin:auto;
+  	margin:auto;
 	
 }
 	
 .box{
     margin: auto;
-	margin-left: 40px;
+   margin-left: 40px;
   padding:15px;
 }
 
@@ -22,7 +22,7 @@ h1{
     padding: 50px;
     border-radius: 25px;
     margin: auto;
-	margin-top: 40px;
+    margin-top: 40px;
 
   
 }
