@@ -1,15 +1,4 @@
 
-function validamount(){
-	 var principal = document.getElementById("prinicipal").value;
-if(principal <= 0) {
-		alert("Enter a positive number");
-		document.getElementById("principal").focus();
-	
-    
-}}
-function showslider() {
-    document.getElementById("rateSpan").innerHTML = document.getElementById("rate").value;
-}
 function compute()
 {
     var principal = parseFloat(document.getElementById("principal").value);
@@ -24,5 +13,14 @@ function compute()
         "in the year <mark>" + finalyear + "</mark>";
 
 }
-        
-
+function validamount(){
+	 var principal = document.getElementById("principal").value;
+if(principal <= 0) {
+		alert("Enter a positive number");
+		document.getElementById("principal").focus();
+	return;
+    
+}}
+function showslider() {
+    document.getElementById("rateSpan").innerHTML = document.getElementById("rate").value;
+}
